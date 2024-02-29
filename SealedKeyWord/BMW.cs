@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace SealedKeyWord
 {
+    //a BMW is a Car
     internal class BMW:Car
     {
         private string brand = "BMW";
@@ -28,7 +29,7 @@ namespace SealedKeyWord
             Console.WriteLine("Brand {0} HP: {1} color: {2}", brand, HP, Color);
         }
 
-        public override void Repair()
+        public sealed override void Repair()
         {
             Console.WriteLine("The BMW {0} was repaired", Model);
         }

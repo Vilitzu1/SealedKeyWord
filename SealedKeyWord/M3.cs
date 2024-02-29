@@ -12,10 +12,12 @@ namespace SealedKeyWord
         {
             this.Model = model;
         }
+        /*
         public sealed override void Repair()
         {
             base.Repair();
             
         }
+        */
     }
 }

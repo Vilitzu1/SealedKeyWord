@@ -37,6 +37,9 @@
             Car carB = (Car)bmwM5;
             carB.ShowDetails();
 
+            M3 myM3 = new M3(260, "Camo", "M3 Super Turbo");
+            myM3.Repair();
+
         }
     }
 }

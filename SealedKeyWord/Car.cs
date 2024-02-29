@@ -16,6 +16,13 @@ namespace SealedKeyWord
             this.HP = hp;
             this.Color = color;
         }
+        /*
+         * Default constructor
+        public Car()
+        {
+            
+        }
+        */
         public void ShowDetails()
         {
             Console.WriteLine("HP: {0} color: {1}", HP, Color);

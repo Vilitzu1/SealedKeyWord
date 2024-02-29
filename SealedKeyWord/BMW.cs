@@ -16,7 +16,13 @@ namespace SealedKeyWord
         {
             this.Model = model;
         }
-
+       /*
+        * Default ctor
+        public BMW()
+        {
+            
+        }
+       */
         public new void ShowDetails()
         {
             Console.WriteLine("Brand {0} HP: {1} color: {2}", brand, HP, Color);
